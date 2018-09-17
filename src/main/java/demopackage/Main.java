@@ -427,8 +427,16 @@ public class Main {
 
 //        Question 4
 //        int num = (int) (Math.random() * 100);
-//        if(){
-//
+//        if((num >= 0) && (num <= 59)){
+//            System.out.println("you got an F");
+//        }else if((num >= 60) && (num <= 69)){
+//            System.out.println("you got a D");
+//        }else if((num >= 70) && (num <= 79)){
+//            System.out.println("you got a C");
+//        }else if((num >= 80) && (num <= 89)){
+//            System.out.println("you got a B");
+//        }else if((num >= 90) && (num <= 100)){
+//            System.out.println("you got an A");
 //        }
 
 //        Question 5
@@ -442,21 +450,33 @@ public class Main {
 
 //        Question 6
 //        Scanner sc = new Scanner(System.in);
+//
 //        System.out.println("Please enter a username:");
+//
 //        String user = sc.nextLine();
+//
 //        System.out.println("Please enter a password:");
+//
 //        String pass = sc.nextLine();
-//        String realPass = "TGIF";
-//        Boolean passBool = true;
-//        int x = 1;
-//        while(passBool.equals(true)){
-//            if(pass.equalsIgnoreCase(realPass)){
-//                System.out.println("You Logged in successfully.");
-//                break;
-//            }else if(!pass.equalsIgnoreCase(realPass)){
-//                   System.out.println("Please try again");
-//                   sc.nextLine();
-//            }
+//
+//        int tries = 1;
+//
+//        while(!pass.equals("TGIF") && tries < 3){
+//            System.out.println("Wrong");
+//
+//            System.out.println("Please enter a username:");
+//
+//            user = sc.nextLine();
+//
+//            System.out.println("Please enter a password:");
+//
+//            pass = sc.nextLine();
+//
+//            tries++;
+//        }if(tries == 3){
+//            System.out.println("you're locked out");
+//        }else{
+//            System.out.println("welcome " + user);
 //        }
 
 //      Question 7
