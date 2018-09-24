@@ -383,11 +383,10 @@ public class Main {
 //        myFaveArtists[1] = "Wu Tang Clan";
 //        myFaveArtists[2] = "GZA";
 //
-//        for(int x = 1; x > 0;){
+//        for(int x = 1; x > 0; x--){
 //            System.out.println(myFaveArtists[0]);
 //            System.out.println(myFaveArtists[1]);
 //            System.out.println(myFaveArtists[2]);
-//            break;
 //        }
 
 //        Question 2
@@ -475,6 +474,7 @@ public class Main {
 //            tries++;
 //        }if(tries == 3){
 //            System.out.println("you're locked out");
+//                break;
 //        }else{
 //            System.out.println("welcome " + user);
 //        }
@@ -484,7 +484,6 @@ public class Main {
 //        int result = numbers[0] + numbers[1] + numbers[2] + numbers[3] + numbers[4] + numbers[5] + numbers[6] + numbers[7] + numbers[8] + numbers[9] / 10;
 //        for(int x = 4; x > 3; x--){
 //            System.out.println(result);
-//            break;
 //        }
 
 //      Question 8
@@ -492,15 +491,114 @@ public class Main {
 //        int result = lottoNumbers[0] + lottoNumbers[1] + lottoNumbers[2] + lottoNumbers[3] + lottoNumbers[4] + lottoNumbers[5];
 //        for(int y = 3; y > 2; y--){
 //            System.out.println(result);
-//            break;
 //        }
+
 //      Question 9
-//        String bluh = "The big dog ran quickly past me.";
-//        String wu = "Wu";
-//        String tang = "Tang";
+//        Scanner uhhhh = new Scanner(System.in);
+//
+//        System.out.println("Please input anything");
+//
+//        String aaaa = uhhhh.nextLine();
+//
+//        String[] aaaaArray = aaaa.split(" ");
+
+//      Beer song code
+//        int beerNum = 99;
+//        String word = "bottles";
+//        String word2 = "bottle";
+//
+//        while(beerNum > 0){
+//            System.out.println(beerNum + " " + word + " of beer on the wall");
+//            System.out.println(beerNum + " " + word + " of beer");
+//            System.out.println("take one down");
+//            System.out.println("pass it around");
+//            beerNum = beerNum - 1;
+//
+//            if(beerNum == 1){
+//                word = word2;
+//            }
+//
+//            if(beerNum == 0){
+//                System.out.println("no more bottles of beer on the wall");
+//            }
+//        }
+
+//        Lecture Notes
+        // Break makes loop stop
+        // Continue makes the loop keep going, and can be used to skip over iterations in code
+
+        // Big numbers can be used when basic integers and floats don't cut it
+        // You can't use "+" or "*" to add or multiply big numbers
+        // you must use commands like .add to store the sum in another variable
+
+        // For Each loops do the job of a while loop in the background
+
+        // Array initializers are shortcuts for creating arrays
+
+        // Anonymous Arrays allow creation of new arrays on the fly without names
+
+        // Array sorting is done using the sort method
+
+        // multidimensional arrays use more than one index to create array elements; basically you can make arrays within arrays. Think row first, then column.
+//        String[][] magicSquare =
+//                {
+//                        {"Mr", "Mrs", "Mc"},
+//                        {"Tee", "Hammer", "Jones"}
+//                };
+//        System.out.printf(magicSquare[0][0] + " ");
+//        System.out.printf(magicSquare[1][0] + ", ");
+//
+//        System.out.printf(magicSquare[0][1] + " ");
+//        System.out.printf(magicSquare[1][2] + ", ");
+//
+//        System.out.printf(magicSquare[0][2] + " ");
+//        System.out.printf(magicSquare[1][1] + " ");
+
+        //Homework
+//        int[][] magicSquare =
+//                {
+//                        {16, 3, 2, 13},
+//                        {5, 10, 11, 8},
+//                        {9, 6, 7, 12},
+//                        {4, 15, 14, 1}
+//                };
+//        System.out.println("Values at arr[0][0] is " + magicSquare[0][0]);
+//        System.out.println("Values at arr[0][1] is " + magicSquare[0][1]);
+//        System.out.println("Values at arr[0][2] is " + magicSquare[0][2]);
+//        System.out.println("Values at arr[0][3] is " + magicSquare[0][3]);
+//        System.out.println("Values at arr[1][0] is " + magicSquare[1][0]);
+//        System.out.println("Values at arr[1][1] is " + magicSquare[1][1]);
+//        System.out.println("Values at arr[1][2] is " + magicSquare[1][2]);
+//        System.out.println("Values at arr[1][3] is " + magicSquare[1][3]);
+//        System.out.println("Values at arr[2][0] is " + magicSquare[2][0]);
+//        System.out.println("Values at arr[2][2] is " + magicSquare[2][1]);
+//        System.out.println("Values at arr[2][2] is " + magicSquare[2][2]);
+//        System.out.println("Values at arr[2][3] is " + magicSquare[2][3]);
+//        System.out.println("Values at arr[3][0] is " + magicSquare[0][0]);
+//        System.out.println("Values at arr[3][1] is " + magicSquare[1][1]);
+//        System.out.println("Values at arr[3][2] is " + magicSquare[2][2]);
+//        System.out.println("Values at arr[3][3] is " + magicSquare[3][3]);
+
+//        for(int l = 0; l < magicSquare.length; l++){
+//            System.out.println(l + " row []");
+//            for (int k = 0; k < magicSquare.length; k++){
+//                System.out.println(k + " column");
+//                System.out.println("values at magicsquare [" + l + "][" + k + "] is ");
+//            }
+//        }
+
+
+
+
+
+
+
+
 
 
 
 
     }
-}
+
+
+    }
