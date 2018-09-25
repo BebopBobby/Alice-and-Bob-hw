@@ -3,12 +3,12 @@ package employee;
 public class Employee {
     private String firstName;
     private String lastName;
-    private final long socialSecurityNumber;
+    private final String socialSecurityNumber;
     private long salary;
     private String title;
     private long bonus;
 
-    public Employee(String firstName, String lastName, long socialSecurityNumber, long salary, String title){
+    public Employee(String firstName, String lastName, String socialSecurityNumber, long salary, String title){
         this.firstName = firstName;
         this.lastName = lastName;
         this.socialSecurityNumber = socialSecurityNumber;
@@ -32,7 +32,7 @@ public class Employee {
         return lastName;
     }
 
-    public long getSocialSecurityNumber(){
+    public String getSocialSecurityNumber(){
         return socialSecurityNumber;
     }
 
