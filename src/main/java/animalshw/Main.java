@@ -1,4 +1,4 @@
-package animals;
+package animalshw;
 
 import java.util.Scanner;
 import java.util.HashMap;
