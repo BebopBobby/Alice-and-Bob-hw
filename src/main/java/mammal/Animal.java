@@ -25,6 +25,6 @@ public class Animal {
 
     @Override
     public String toString() {
-        return "Animal [" + "Food = " + food + " Breed = " + breed + "]";
+        return "Animal [" + "foods = " + food + " Breed = " + breed + "]";
     }
 }

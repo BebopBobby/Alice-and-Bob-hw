@@ -1,4 +1,4 @@
-package Arena;
+package foods;
 
 public abstract class Restaurant {
     public int chairs;
