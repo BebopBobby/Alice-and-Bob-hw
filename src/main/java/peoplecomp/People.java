@@ -4,11 +4,12 @@ import java.lang.reflect.Array;
 import java.util.ArrayList;
 
 public class People {
-    public ArrayList<Person> personList;
+    private Person person;
+    ArrayList<Person> personList = new ArrayList<Person>();
 
 
-    public void add(Person p){
-        personList.add(p);
+    public void add(Person t){
+        personList.add(t);
     }
 
     public Person findById(long id){
@@ -28,10 +29,10 @@ public class People {
         }
     }
 
-    public void remove(Person p){
-        for (Person p : personList){
-            if (Person == p){
-                personList.remove(p);
+    public void remove(Person g){
+        for (Person person: personList){
+            if (g == person){
+                personList.remove(g);
             }
         }
     }
@@ -41,7 +42,7 @@ public class People {
     }
 
     public Object getArray(){
-        return personList.toArray();
+        return personList.toString();
     }
 
     public void removeAll(){
